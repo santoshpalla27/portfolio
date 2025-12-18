@@ -9,12 +9,12 @@ const Hero: React.FC = () => {
       <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-12 xl:gap-20 items-center max-w-7xl mx-auto">
         {/* Left Column: Content */}
         <div className="flex flex-col gap-6 text-center lg:text-left order-2 lg:order-1">
-          <div className="inline-flex items-center gap-2 self-center lg:self-start rounded-full border border-blue-500/30 bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600 dark:text-blue-300">
-            <span className="relative flex h-2 w-2">
+          <div className="inline-flex items-center gap-2 self-center lg:self-start rounded-full border border-blue-500/20 bg-blue-500/5 backdrop-blur-md px-4 py-1.5 text-sm font-medium text-blue-600 dark:text-blue-300 shadow-lg shadow-blue-500/10 transition-all duration-300 hover:scale-105 hover:bg-blue-500/10 hover:shadow-blue-500/20 cursor-default">
+            <span className="relative flex h-2.5 w-2.5">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-500"></span>
             </span>
-            Open to new opportunities
+            <span className="tracking-wide">Open to new opportunities</span>
           </div>
 
           <h1 className="font-display text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl xl:text-7xl">
