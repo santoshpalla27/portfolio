@@ -2,6 +2,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import BackgroundDecor from './components/BackgroundDecor';
 
 const App: React.FC = () => {
@@ -11,16 +15,11 @@ const App: React.FC = () => {
       <Navbar />
       <main className="relative flex flex-col min-h-screen">
         <Hero />
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Contact />
       </main>
-      
-      {/* Simple Footer for completeness and responsiveness anchor */}
-      <footer className="w-full py-8 border-t border-black/5 dark:border-white/5 bg-white/50 dark:bg-black/50 backdrop-blur-sm mt-auto">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} DevOps.Arch. Designed with precision.
-          </p>
-        </div>
-      </footer>
     </div>
   );
 };
