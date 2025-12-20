@@ -66,7 +66,7 @@ const categories = [
 const Skills: React.FC = () => {
     return (
         <section id="stack" className="py-20 lg:py-32 bg-gray-50 dark:bg-black/20">
-            <div className="container mx-auto px-6">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-16 text-center max-w-3xl mx-auto">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
